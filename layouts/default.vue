@@ -6,6 +6,13 @@
 
 <style>
 html {
+  min-height: 100vh;
+  background: #40d0f7; /* // #50daff; */
+  background-image: linear-gradient(40deg, rgba(1, 129, 172, 0.2), rgba(0, 0, 0, 0));
+  /**
+  linear-gradient(40deg, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0))
+  linear-gradient(40deg, rgba(37, 255, 84, 0.16), rgba(0, 0, 0, 0))
+  */
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
