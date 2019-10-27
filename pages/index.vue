@@ -1,25 +1,26 @@
 <template>
   <div class="container">
     <div>
-      <logo />
-      <h1 class="title">
-        melx-nl
-      </h1>
-      Open voor partnerships
+      <img class="img-logo2" src="/wip-logo.png" alt="Logo Mel X B.V."/>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
+  head () {
+    return {
+      title: 'Mel X B.V.'
+    }
   }
 }
 </script>
 
 <style>
-
+.img-logo2 {
+  display: block;
+  margin: 16vh auto;
+  width: 117px;
+  height: auto;
+}
 </style>
